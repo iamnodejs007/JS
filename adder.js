@@ -33,7 +33,7 @@ function calc() {
   
   var fn = window[f];
   if (typeof fn === "function")
-  {m=dowatever(x,y,fn)
+  {m=dowatever(Number(x),Number(y),fn)
   alert(m)}
   else{alert("no sucj")}
 }
